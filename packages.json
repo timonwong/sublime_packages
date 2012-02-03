@@ -1,0 +1,35 @@
+{
+    "schema_version": "1.2",
+    "packages": [
+        {
+            "name": "SublimeAStyleFormatter",
+            "description": "Formatting C/C++/C#/Java Files with AStyle",
+            "author": "timonwong",
+            "homepage": "https://github.com/timonwong/SublimeAStyleFormatter",
+            "last_modified": "2012-02-03 18:58:39",
+            "platforms": {
+                "windows": [
+                    {
+                        "version": "1.0",
+                        "url": "https://nodeload.github.com/timonwong/SublimeAStyleFormatter/zipball/v1.0"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "SublimeAlternate",
+            "description": "Alternate files (as .c=>.h and vice versa) quickly.",
+            "author": "timonwong",
+            "homepage": "https://github.com/timonwong/SublimeAlternate",
+            "last_modified": "2012-02-03 19:34:43",
+            "platforms": {
+                "*": [
+                    {
+                        "version": "1.0",
+                        "url": "https://nodeload.github.com/timonwong/SublimeAlternate/zipball/v1.0"
+                    }
+                ]
+            }
+        }
+    ]
+}
