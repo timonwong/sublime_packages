@@ -21,7 +21,7 @@
             "description": "Alternate files (as .c=>.h and vice versa) quickly.",
             "author": "timonwong",
             "homepage": "https://github.com/timonwong/SublimeAlternate",
-            "last_modified": "2012-02-03 19:34:43",
+            "last_modified": "2012-02-03 19:58:28",
             "platforms": {
                 "*": [
                     {
