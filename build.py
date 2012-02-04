@@ -33,9 +33,9 @@ def get_package_git_information(package_file):
     # Get version
     proc_git_tag = shell_execute(['git', 'tag'], package_dir)
     latest_tags = proc_git_tag.communicate()[0].strip()
-    latest_tags = latest_tags.partition('\n')
+    latest_tags = latest_tags.split('\n')
     # Get the newest
-    latest_tag = latest_tags[0]
+    latest_tag = latest_tags[-1]
     latest_version = latest_tag[1:]
     # Get date
     proc_git_log = shell_execute(
