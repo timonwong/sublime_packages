@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import os
 import platform
 import subprocess
@@ -39,7 +40,7 @@ def get_package_git_information(package_file):
     latest_version = latest_tag[1:]
     # Get date
     proc_git_log = shell_execute(
-        ['git', 'log', latest_tag, "--pretty=format:%ci", "-n", "1"], package_dir)
+        ['git', 'log', "--pretty=format:%ci", "-1", latest_tag], package_dir)
     last_modified = proc_git_log.communicate()[0].strip()
     last_modified = last_modified[:19]
     if (latest_tag == "" or latest_version == ""):
