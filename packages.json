@@ -6,18 +6,18 @@
             "description": "Formatting C/C++/C#/Java Files with AStyle.",
             "author": "timonwong",
             "homepage": "https://github.com/timonwong/SublimeAStyleFormatter",
-            "last_modified": "2012-04-19 22:13:19",
+            "last_modified": "2012-09-21 11:41:05",
             "platforms": {
                 "windows": [
                     {
-                        "version": "1.2",
-                        "url": "https://nodeload.github.com/timonwong/SublimeAStyleFormatter/zipball/v1.2"
+                        "version": "1.3",
+                        "url": "https://nodeload.github.com/timonwong/SublimeAStyleFormatter/zipball/v1.3"
                     }
                 ],
                 "osx": [
                     {
-                        "version": "1.2",
-                        "url": "https://nodeload.github.com/timonwong/SublimeAStyleFormatter/zipball/v1.2"
+                        "version": "1.3",
+                        "url": "https://nodeload.github.com/timonwong/SublimeAStyleFormatter/zipball/v1.3"
                     }
                 ]
             }
