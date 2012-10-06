@@ -6,12 +6,12 @@
             "description": "C/C++/C#/Java code formatter with AStyle.",
             "author": "timonwong",
             "homepage": "https://github.com/timonwong/SublimeAStyleFormatter",
-            "last_modified": "2012-09-28 21:15:02",
+            "last_modified": "2012-10-06 09:48:57",
             "platforms": {
                 "*": [
                     {
-                        "version": "1.4",
-                        "url": "https://nodeload.github.com/timonwong/SublimeAStyleFormatter/zipball/v1.4"
+                        "version": "1.4.1",
+                        "url": "https://nodeload.github.com/timonwong/SublimeAStyleFormatter/zipball/v1.4.1"
                     }
                 ]
             }
