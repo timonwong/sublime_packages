@@ -30,6 +30,21 @@
                     }
                 ]
             }
+        },
+        {
+            "name": "OmniMarkupPreviewer",
+            "description": "Preview markup files (markdown, rst, creole, textile and so on) in web browsers in realtime",
+            "author": "timonwong",
+            "homepage": "https://github.com/timonwong/OmniMarkupPreviewer",
+            "last_modified": "2012-10-14 14:59:10",
+            "platforms": {
+                "windows": [
+                    {
+                        "version": "1.0",
+                        "url": "https://nodeload.github.com/timonwong/OmniMarkupPreviewer/zipball/v1.0"
+                    }
+                ]
+            }
         }
     ]
 }

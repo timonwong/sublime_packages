@@ -7,7 +7,7 @@ from string import Template
 
 
 # ==== CONFIG ====
-g_packages = ["SublimeAStyleFormatter", "SublimeAlternate"]
+g_packages = ["SublimeAStyleFormatter", "SublimeAlternate", "OmniMarkupPreviewer"]
 
 
 # Read every package.json file
@@ -112,7 +112,8 @@ def build_packages_json_file(packages):
                                                           last_modified=last_modified, \
                                                           platforms=platforms))
         except:
-            pass
+            import traceback
+            traceback.print_exc()
     return ",".join(packages_json)
 
 if __name__ == "__main__":
