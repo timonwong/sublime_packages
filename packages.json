@@ -6,7 +6,7 @@
             "description": "C/C++/C#/Java code formatter with AStyle.",
             "author": "timonwong",
             "homepage": "https://github.com/timonwong/SublimeAStyleFormatter",
-            "last_modified": "2012-10-16 18:01:45",
+            "last_modified": "2012-10-16 18:09:32",
             "platforms": {
                 "*": [
                     {
@@ -36,18 +36,12 @@
             "description": "Preview markup files (markdown, rst, creole, textile and so on) in web browsers in realtime.",
             "author": "timonwong",
             "homepage": "https://github.com/timonwong/OmniMarkupPreviewer",
-            "last_modified": "2012-10-16 11:44:59",
+            "last_modified": "2012-10-16 19:03:24",
             "platforms": {
-                "windows": [
+                "*": [
                     {
-                        "version": "1.1",
-                        "url": "https://nodeload.github.com/timonwong/OmniMarkupPreviewer/zipball/v1.1"
-                    }
-                ],
-                "osx": [
-                    {
-                        "version": "1.1",
-                        "url": "https://nodeload.github.com/timonwong/OmniMarkupPreviewer/zipball/v1.1"
+                        "version": "1.2",
+                        "url": "https://nodeload.github.com/timonwong/OmniMarkupPreviewer/zipball/v1.2"
                     }
                 ]
             }
