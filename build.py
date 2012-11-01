@@ -18,7 +18,7 @@ def get_package_files(packages):
     elif system == "Darwin":
         st2_packages_dir = "~/Library/Application Support/Sublime Text 2/Packages"
     else:
-        st2_packages_dir = "~/.Sublime Text 2/Packages"
+        st2_packages_dir = "~/.config/sublime-text-2/Packages"
     package_files = []
     for package in packages:
         package_files.append(os.path.join(st2_packages_dir, package, "package.json"))
