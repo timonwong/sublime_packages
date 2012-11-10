@@ -6,12 +6,12 @@
             "description": "C/C++/C#/Java code formatter with AStyle.",
             "author": "timonwong",
             "homepage": "https://github.com/timonwong/SublimeAStyleFormatter",
-            "last_modified": "2012-11-05 21:21:34",
+            "last_modified": "2012-11-10 12:47:27",
             "platforms": {
                 "*": [
                     {
-                        "version": "1.6.4",
-                        "url": "https://github.com/timonwong/SublimeAStyleFormatter/archive/v1.6.4.zip"
+                        "version": "1.7",
+                        "url": "https://github.com/timonwong/SublimeAStyleFormatter/archive/v1.7.zip"
                     }
                 ]
             }
