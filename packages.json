@@ -11,7 +11,7 @@
                 "*": [
                     {
                         "version": "1.7",
-                        "url": "https://github.com/timonwong/SublimeAStyleFormatter/archive/v1.7.zip"
+                        "url": "https://nodeload.github.com/timonwong/SublimeAStyleFormatter/zip/v1.7"
                     }
                 ]
             }
@@ -26,7 +26,7 @@
                 "*": [
                     {
                         "version": "1.1",
-                        "url": "https://github.com/timonwong/SublimeAlternate/archive/v1.1.zip"
+                        "url": "https://nodeload.github.com/timonwong/SublimeAlternate/zip/v1.1"
                     }
                 ]
             }
@@ -41,7 +41,7 @@
                 "*": [
                     {
                         "version": "1.8",
-                        "url": "https://github.com/timonwong/OmniMarkupPreviewer/archive/v1.8.zip"
+                        "url": "https://nodeload.github.com/timonwong/OmniMarkupPreviewer/zip/v1.8"
                     }
                 ]
             }
