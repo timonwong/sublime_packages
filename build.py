@@ -70,7 +70,7 @@ def build_platforms_json_string(package_git_information, platforms, repo):
                 "$platform": [
                     {
                         "version": "$last_version",
-                        "url": "https://github.com/timonwong/$repo/archive/$last_tag.zip"
+                        "url": "https://nodeload.github.com/timonwong/$repo/zip/$last_tag"
                     }
                 ]""")
     json_platforms = [
