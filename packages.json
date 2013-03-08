@@ -3,15 +3,15 @@
     "packages": [
         {
             "name": "SublimeAStyleFormatter",
-            "description": "C/C++/C#/Java code formatter with AStyle.",
+            "description": "C/C++/C#/Java code formatter/beautifier with AStyle.",
             "author": "timonwong",
             "homepage": "https://github.com/timonwong/SublimeAStyleFormatter",
-            "last_modified": "2012-12-24 18:48:13",
+            "last_modified": "2013-03-08 23:56:51",
             "platforms": {
                 "*": [
                     {
-                        "version": "1.8",
-                        "url": "https://nodeload.github.com/timonwong/SublimeAStyleFormatter/zip/v1.8"
+                        "version": "1.9",
+                        "url": "https://nodeload.github.com/timonwong/SublimeAStyleFormatter/zip/v1.9"
                     }
                 ]
             }
