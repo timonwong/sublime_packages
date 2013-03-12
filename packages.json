@@ -10,8 +10,8 @@
             "platforms": {
                 "*": [
                     {
-                        "version": ".9.1",
-                        "url": "https://nodeload.github.com/timonwong/SublimeAStyleFormatter/zip/1.9.1"
+                        "version": "1.9.1",
+                        "url": "https://nodeload.github.com/timonwong/SublimeAStyleFormatter/zip/v1.9.1"
                     }
                 ]
             }
