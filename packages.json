@@ -2,21 +2,6 @@
     "schema_version": "1.2",
     "packages": [
         {
-            "name": "SublimeAStyleFormatter",
-            "description": "C/C++/C#/Java code formatter/beautifier with AStyle.",
-            "author": "timonwong",
-            "homepage": "http://theo.im/SublimeAStyleFormatter/",
-            "last_modified": "2013-03-10 15:18:14",
-            "platforms": {
-                "*": [
-                    {
-                        "version": "1.9.1",
-                        "url": "https://nodeload.github.com/timonwong/SublimeAStyleFormatter/zip/v1.9.1"
-                    }
-                ]
-            }
-        },
-        {
             "name": "SublimeAlternate",
             "description": "Alternate files (such as from .c to .h and vice versa) quickly.",
             "author": "timonwong",
