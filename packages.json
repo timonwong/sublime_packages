@@ -21,12 +21,12 @@
             "description": "Live previewer/exporter for markup files (markdown, rst, creole, textile...).",
             "author": "timonwong",
             "homepage": "http://timonwong.github.com/OmniMarkupPreviewer",
-            "last_modified": "2013-03-13 13:21:57",
+            "last_modified": "2013-03-15 16:06:49",
             "platforms": {
                 "*": [
                     {
-                        "version": "1.12",
-                        "url": "https://nodeload.github.com/timonwong/OmniMarkupPreviewer/zip/v1.12"
+                        "version": "1.20",
+                        "url": "https://nodeload.github.com/timonwong/OmniMarkupPreviewer/zip/v1.20"
                     }
                 ]
             }
