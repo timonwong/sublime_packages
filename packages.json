@@ -2,6 +2,21 @@
     "schema_version": "1.2",
     "packages": [
         {
+            "name": "SublimeAStyleFormatter",
+            "description": "C/C++/C#/Java code formatter/beautifier with AStyle.",
+            "author": "timonwong",
+            "homepage": "http://theo.im/SublimeAStyleFormatter/",
+            "last_modified": "2013-03-16 16:39:30",
+            "platforms": {
+                "*": [
+                    {
+                        "version": "1.9.2",
+                        "url": "https://nodeload.github.com/timonwong/SublimeAStyleFormatter/zip/v1.9.2"
+                    }
+                ]
+            }
+        },
+        {
             "name": "SublimeAlternate",
             "description": "Alternate files (such as from .c to .h and vice versa) quickly.",
             "author": "timonwong",
@@ -21,7 +36,7 @@
             "description": "Live previewer/exporter for markup files (markdown, rst, creole, textile...).",
             "author": "timonwong",
             "homepage": "http://timonwong.github.com/OmniMarkupPreviewer",
-            "last_modified": "2013-03-15 16:06:49",
+            "last_modified": "2013-03-15 18:28:08",
             "platforms": {
                 "*": [
                     {
