@@ -5,13 +5,13 @@
             "name": "SublimeAStyleFormatter",
             "description": "C/C++/C#/Java code formatter/beautifier with AStyle.",
             "author": "timonwong",
-            "homepage": "http://timonwong.github.com/SublimeAStyleFormatter/",
-            "last_modified": "2013-03-24 12:42:35",
+            "homepage": "http://timonwong.github.io/SublimeAStyleFormatter/",
+            "last_modified": "2013-04-16 15:13:39",
             "platforms": {
                 "*": [
                     {
-                        "version": "1.9.3",
-                        "url": "https://nodeload.github.com/timonwong/SublimeAStyleFormatter/zip/v1.9.3"
+                        "version": "1.9.4",
+                        "url": "https://nodeload.github.com/timonwong/SublimeAStyleFormatter/zip/v1.9.4"
                     }
                 ]
             }
@@ -35,7 +35,7 @@
             "name": "OmniMarkupPreviewer",
             "description": "Live previewer/exporter for markup files (markdown, rst, creole, textile...).",
             "author": "timonwong",
-            "homepage": "http://timonwong.github.com/OmniMarkupPreviewer",
+            "homepage": "http://timonwong.github.io/OmniMarkupPreviewer/",
             "last_modified": "2013-03-31 19:37:22",
             "platforms": {
                 "*": [
