@@ -2,6 +2,21 @@
     "schema_version": "1.2",
     "packages": [
         {
+            "name": "ScalaFormat",
+            "description": "Yet another Scala code formatter for Sublime Text.",
+            "author": "timonwong",
+            "homepage": "http://timonwong.github.io/ScalaFormat/",
+            "last_modified": "2013-06-03 19:35:10",
+            "platforms": {
+                "*": [
+                    {
+                        "version": "1.1",
+                        "url": "https://nodeload.github.com/timonwong/ScalaFormat/zip/v1.1"
+                    }
+                ]
+            }
+        },
+        {
             "name": "SublimeAStyleFormatter",
             "description": "C/C++/C#/Java code formatter/beautifier with AStyle.",
             "author": "timonwong",
