@@ -21,12 +21,12 @@
             "description": "C/C++/C#/Java code formatter/beautifier with AStyle.",
             "author": "timonwong",
             "homepage": "http://timonwong.github.io/SublimeAStyleFormatter/",
-            "last_modified": "2013-04-16 15:13:39",
+            "last_modified": "2013-06-22 14:09:57",
             "platforms": {
                 "*": [
                     {
-                        "version": "1.9.4",
-                        "url": "https://nodeload.github.com/timonwong/SublimeAStyleFormatter/zip/v1.9.4"
+                        "version": "2.0.0",
+                        "url": "https://nodeload.github.com/timonwong/SublimeAStyleFormatter/zip/v2.0.0"
                     }
                 ]
             }
