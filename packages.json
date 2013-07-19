@@ -6,12 +6,12 @@
             "description": "Yet another Scala code formatter for Sublime Text.",
             "author": "timonwong",
             "homepage": "http://timonwong.github.io/ScalaFormat/",
-            "last_modified": "2013-07-15 20:32:02",
+            "last_modified": "2013-07-19 14:43:37",
             "platforms": {
                 "*": [
                     {
-                        "version": "1.1.1",
-                        "url": "https://nodeload.github.com/timonwong/ScalaFormat/zip/v1.1.1"
+                        "version": "1.2.0",
+                        "url": "https://nodeload.github.com/timonwong/ScalaFormat/zip/v1.2.0"
                     }
                 ]
             }
