@@ -5,7 +5,8 @@
             "name": "ScalaFormat",
             "description": "Yet another Scala code formatter for Sublime Text.",
             "author": "timonwong",
-            "details": "http://timonwong.github.io/ScalaFormat/",
+            "homepage": "http://timonwong.github.io/ScalaFormat/",
+            "details": "https://github.com/timonwong/ScalaFormat",
             "releases": [
                 {
                     "sublime_text": "*",
@@ -17,7 +18,8 @@
             "name": "SublimeAStyleFormatter",
             "description": "C/C++/C#/Java code formatter/beautifier with AStyle.",
             "author": "timonwong",
-            "details": "http://timonwong.github.io/SublimeAStyleFormatter/",
+            "homepage": "http://timonwong.github.io/SublimeAStyleFormatter/",
+            "details": "https://github.com/timonwong/SublimeAStyleFormatter",
             "releases": [
                 {
                     "sublime_text": "*",
@@ -29,6 +31,7 @@
             "name": "SublimeAlternate",
             "description": "Alternate files (such as from .c to .h and vice versa) quickly.",
             "author": "timonwong",
+            "homepage": "https://github.com/timonwong/SublimeAlternate",
             "details": "https://github.com/timonwong/SublimeAlternate",
             "releases": [
                 {
@@ -41,7 +44,8 @@
             "name": "OmniMarkupPreviewer",
             "description": "Live previewer/exporter for markup files (markdown, rst, creole, textile...).",
             "author": "timonwong",
-            "details": "http://timonwong.github.io/OmniMarkupPreviewer/",
+            "homepage": "http://timonwong.github.io/OmniMarkupPreviewer/",
+            "details": "https://github.com/timonwong/OmniMarkupPreviewer",
             "releases": [
                 {
                     "sublime_text": "*",

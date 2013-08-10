@@ -34,12 +34,14 @@ def get_package_json_information(package_file):
         name = package_json["name"]
         description = package_json["description"]
         author = package_json["author"]
-        details = package_json["homepage"]
+        homepage = package_json["homepage"]
+        details = package_json["details"]
         repo = package_json["repo"]
         return {
             "name": name,
             "description": description,
             "author": author,
+            "homepage": homepage,
             "details": details,
             "repo": repo
         }
@@ -65,6 +67,7 @@ def build_packages_json_file(packages):
             "name": "$name",
             "description": "$description",
             "author": "$author",
+            "homepage": "$homepage",
             "details": "$details",
             "releases": [$releases_json_string
             ]
