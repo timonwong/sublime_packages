@@ -23,35 +23,8 @@ def get_package_files(packages):
     return package_files
 
 
-def shell_execute(args, working_dir):
-    return subprocess.Popen(args, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True, cwd=working_dir)
-
-
 def ensure_version_string(version):
     [int(x) for x in version.split('.')]
-
-
-def get_package_git_information(package_file):
-    package_dir = os.path.dirname(package_file)
-    # Get the latest version information, base on the tag
-    proc_git_tag = shell_execute(
-        ['git', 'describe', '--abbrev=0', '--tags'], package_dir)
-    last_tag = proc_git_tag.communicate()[0].strip()
-    # Assumes that the tag is following this format: v1.0.2
-    last_version = last_tag[1:]
-    ensure_version_string(last_version)
-    # Get date
-    proc_git_log = shell_execute(
-        ['git', 'log', '--pretty=format:%ci', '-1', last_tag], package_dir)
-    last_modified = proc_git_log.communicate()[0].strip()
-    last_modified = last_modified[:19]
-    if (last_tag == "" or last_version == ""):
-        raise Exception("No Git Version Information")
-    return {
-        'last_tag': last_tag,
-        'last_version': last_version,
-        'last_modified': last_modified,
-    }
 
 
 def get_package_json_information(package_file):
@@ -61,29 +34,25 @@ def get_package_json_information(package_file):
         name = package_json["name"]
         description = package_json["description"]
         author = package_json["author"]
-        homepage = package_json["homepage"]
+        details = package_json["homepage"]
         repo = package_json["repo"]
-        platforms = package_json["platforms"]
-        return {"name": name,
-                "description": description,
-                "author": author,
-                "homepage": homepage,
-                "repo": repo,
-                "platforms": platforms}
+        return {
+            "name": name,
+            "description": description,
+            "author": author,
+            "details": details,
+            "repo": repo
+        }
 
 
-def build_platforms_json_string(package_git_information, platforms, repo):
+def build_releases_json_string(repo):
     template_platform = Template("""
-                "$platform": [
-                    {
-                        "version": "$last_version",
-                        "url": "https://nodeload.github.com/timonwong/$repo/zip/$last_tag"
-                    }
-                ]""")
+                {
+                    "sublime_text": "*",
+                    "details": "https://github.com/timonwong/$repo/tags"
+                }""")
     json_platforms = [
-        template_platform.substitute(
-            platform=platform, repo=repo, **package_git_information)
-        for platform in platforms
+        template_platform.substitute(repo=repo)
     ]
     return ",".join(json_platforms)
 
@@ -96,25 +65,21 @@ def build_packages_json_file(packages):
             "name": "$name",
             "description": "$description",
             "author": "$author",
-            "homepage": "$homepage",
-            "last_modified": "$last_modified",
-            "platforms": {$platform_json_string
-            }
+            "details": "$details",
+            "releases": [$releases_json_string
+            ]
         }""")
 
     packages_json = []
     for package_file in package_files:
         try:
             package_json_info = get_package_json_information(package_file)
-            package_git_info = get_package_git_information(package_file)
-            platforms_json_string = build_platforms_json_string(
-                package_git_info,
-                package_json_info["platforms"],
+            releases_json_string = build_releases_json_string(
                 package_json_info["repo"]
             )
-            info = dict(package_json_info, **package_git_info)
+            info = dict(package_json_info)
             packages_json.append(template_main.substitute(
-                platform_json_string=platforms_json_string, **info
+                releases_json_string=releases_json_string, **info
             ))
         except:
             import traceback
@@ -139,7 +104,7 @@ if __name__ == "__main__":
 
     with open('packages.json', 'w') as f:
         f.write("""{
-    "schema_version": "1.2",
+    "schema_version": "2.0",
     "packages": [""")
         f.write(build_packages_json_file(packages))
         f.write("""

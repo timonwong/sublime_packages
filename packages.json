@@ -1,65 +1,53 @@
 {
-    "schema_version": "1.2",
+    "schema_version": "2.0",
     "packages": [
         {
             "name": "ScalaFormat",
             "description": "Yet another Scala code formatter for Sublime Text.",
             "author": "timonwong",
-            "homepage": "http://timonwong.github.io/ScalaFormat/",
-            "last_modified": "2013-07-19 14:43:37",
-            "platforms": {
-                "*": [
-                    {
-                        "version": "1.2.0",
-                        "url": "https://nodeload.github.com/timonwong/ScalaFormat/zip/v1.2.0"
-                    }
-                ]
-            }
+            "details": "http://timonwong.github.io/ScalaFormat/",
+            "releases": [
+                {
+                    "sublime_text": "*",
+                    "details": "https://github.com/timonwong/ScalaFormat/tags"
+                }
+            ]
         },
         {
             "name": "SublimeAStyleFormatter",
             "description": "C/C++/C#/Java code formatter/beautifier with AStyle.",
             "author": "timonwong",
-            "homepage": "http://timonwong.github.io/SublimeAStyleFormatter/",
-            "last_modified": "2013-07-19 14:53:29",
-            "platforms": {
-                "*": [
-                    {
-                        "version": "2.0.2",
-                        "url": "https://nodeload.github.com/timonwong/SublimeAStyleFormatter/zip/v2.0.2"
-                    }
-                ]
-            }
+            "details": "http://timonwong.github.io/SublimeAStyleFormatter/",
+            "releases": [
+                {
+                    "sublime_text": "*",
+                    "details": "https://github.com/timonwong/SublimeAStyleFormatter/tags"
+                }
+            ]
         },
         {
             "name": "SublimeAlternate",
             "description": "Alternate files (such as from .c to .h and vice versa) quickly.",
             "author": "timonwong",
-            "homepage": "https://github.com/timonwong/SublimeAlternate",
-            "last_modified": "2012-03-01 00:27:16",
-            "platforms": {
-                "*": [
-                    {
-                        "version": "1.1",
-                        "url": "https://nodeload.github.com/timonwong/SublimeAlternate/zip/v1.1"
-                    }
-                ]
-            }
+            "details": "https://github.com/timonwong/SublimeAlternate",
+            "releases": [
+                {
+                    "sublime_text": "*",
+                    "details": "https://github.com/timonwong/SublimeAlternate/tags"
+                }
+            ]
         },
         {
             "name": "OmniMarkupPreviewer",
             "description": "Live previewer/exporter for markup files (markdown, rst, creole, textile...).",
             "author": "timonwong",
-            "homepage": "http://timonwong.github.io/OmniMarkupPreviewer/",
-            "last_modified": "2013-07-18 23:03:27",
-            "platforms": {
-                "*": [
-                    {
-                        "version": "2.0.3",
-                        "url": "https://nodeload.github.com/timonwong/OmniMarkupPreviewer/zip/v2.0.3"
-                    }
-                ]
-            }
+            "details": "http://timonwong.github.io/OmniMarkupPreviewer/",
+            "releases": [
+                {
+                    "sublime_text": "*",
+                    "details": "https://github.com/timonwong/OmniMarkupPreviewer/tags"
+                }
+            ]
         }
     ]
 }
