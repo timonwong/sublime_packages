@@ -1,4 +1,0 @@
-ScalaFormat
-SublimeAStyleFormatter
-SublimeAlternate
-OmniMarkupPreviewer
