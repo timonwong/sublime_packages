@@ -7,6 +7,10 @@
 			"author": "timonwong",
 			"homepage": "http://timonwong.github.io/ScalaFormat/",
 			"details": "https://github.com/timonwong/ScalaFormat",
+			"labels": [
+				"scala",
+				"formatting"
+			],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -20,6 +24,9 @@
 			"author": "timonwong",
 			"homepage": "http://timonwong.github.io/SublimeAStyleFormatter/",
 			"details": "https://github.com/timonwong/SublimeAStyleFormatter",
+			"labels": [
+				"formatting"
+			],
 			"releases": [
 				{
 					"sublime_text": "*",
