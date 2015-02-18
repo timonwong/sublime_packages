@@ -1,62 +1,56 @@
 {
-	"schema_version": "2.0",
+	"schema_version": "3.0.0",
 	"packages": [
 		{
 			"name": "ScalaFormat",
-			"description": "Yet another Scala code formatter for Sublime Text.",
-			"author": "timonwong",
-			"homepage": "http://timonwong.github.io/ScalaFormat/",
 			"details": "https://github.com/timonwong/ScalaFormat",
-			"labels": [
-				"scala",
-				"formatting"
-			],
+			"description": "Yet another Scala code formatter for Sublime Text.",
+			"homepage": "http://timonwong.github.io/ScalaFormat/",
+			"author": "timonwong",
+			"labels": ["scala", "formatting"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/timonwong/ScalaFormat/tags"
+					"tags": true
 				}
 			]
 		},
 		{
 			"name": "SublimeAStyleFormatter",
-			"description": "C/C++/C#/Java code formatter/beautifier with AStyle.",
-			"author": "timonwong",
-			"homepage": "http://timonwong.github.io/SublimeAStyleFormatter/",
 			"details": "https://github.com/timonwong/SublimeAStyleFormatter",
-			"labels": [
-				"formatting"
-			],
+			"description": "C/C++/C#/Java code formatter/beautifier with AStyle.",
+			"homepage": "http://timonwong.github.io/SublimeAStyleFormatter/",
+			"author": "timonwong",
+			"labels": ["formatting"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/timonwong/SublimeAStyleFormatter/tags"
+					"tags": true
 				}
 			]
 		},
 		{
 			"name": "SublimeAlternate",
+			"details": "https://github.com/timonwong/SublimeAlternate",
 			"description": "Alternate files (such as from .c to .h and vice versa) quickly.",
 			"author": "timonwong",
-			"homepage": "https://github.com/timonwong/SublimeAlternate",
-			"details": "https://github.com/timonwong/SublimeAlternate",
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/timonwong/SublimeAlternate/tags"
+					"tags": true
 				}
 			]
 		},
 		{
 			"name": "OmniMarkupPreviewer",
-			"description": "Live previewer/exporter for markup files (markdown, rst, creole, textile...).",
-			"author": "timonwong",
-			"homepage": "http://timonwong.github.io/OmniMarkupPreviewer/",
 			"details": "https://github.com/timonwong/OmniMarkupPreviewer",
+			"description": "Live previewer/exporter for markup files (markdown, rst, creole, textile...).",
+			"homepage": "http://timonwong.github.io/OmniMarkupPreviewer/",
+			"author": "timonwong",
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/timonwong/OmniMarkupPreviewer/tags"
+					"tags": true
 				}
 			]
 		}
